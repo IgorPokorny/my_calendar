@@ -1,0 +1,154 @@
+body {
+    width: 1700px;
+    width:auto;
+    margin:0 auto;
+    color: #5b5476;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #635b80;
+}
+
+
+.all-months {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    /*! margin:auto; */
+    /*padding:0px;*/
+    /*position: absolute;*/
+    
+}
+
+.sundays {
+	color: #D64541;
+	font-weight: bold;
+
+
+}
+
+.free-day {
+	color: #5aa611;
+    font-weight: 900;
+}
+
+
+
+
+
+
+.month {
+    padding: 30px;
+    width: 260px;
+}
+
+.month td {
+    padding: 7px;
+
+}
+
+.month th {
+    padding-right: 15px;
+    
+}
+
+
+@media (max-width: 1400px) {
+	.month {
+		width: 240px;
+		padding: 20px;
+	}
+	.month td {
+		padding: 5px;
+	}
+
+}
+
+@media (max-width: 1200px) {
+	.month {
+		width: 200px;
+		padding: 20px;
+	}
+	.month td {
+		padding: 5px;
+	}
+
+}
+
+@media (max-width: 1000px) {
+	.month {
+		width: 180px;
+		padding: 12px;
+		
+	}
+	.month td {
+		padding: 5px;
+		font-size: 14px;
+	}
+	.month th {
+		padding-right: 7px;
+
+}
+
+@media (max-width: 850px) {
+	.month {
+		width: 150px;
+		padding: 10px;
+		
+	}
+	.month td {
+		padding: 4px;
+		font-size: 12px;
+	}
+
+	.month h2 {
+		font-size: 20px;
+	}
+
+}
+
+@media (max-width: 680px) {
+	.month {
+		width: 140px;
+		padding: 10px;
+		
+	}
+	.month td {
+		padding: 3px;
+		font-size: 12px;
+	}
+	.month th {
+		padding-right: 4px;
+	}
+	h1 {
+		font-size: 34px;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.month {
+		width: 120px;
+		padding: 17px;
+		
+	}
+	.month td {
+		padding: 3px;
+		font-size: 12px;
+	}
+	.month th {
+		padding-right: 4px;
+	}
+	.month h2 {
+		font-size: 16px;
+	}
+	h1 {
+		font-size: 32px;
+	}
+}
